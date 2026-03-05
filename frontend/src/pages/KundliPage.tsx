@@ -90,12 +90,12 @@ function BirthForm({ onComputed, loading }: {
   onComputed: (data: KundliData) => void
   loading: boolean
 }) {
-  const [name, setName] = useState('')
-  const [birthDate, setBirthDate] = useState('')
-  const [birthTime, setBirthTime] = useState('')
-  const [birthPlace, setBirthPlace] = useState('')
-  const [latitude, setLatitude] = useState('28.6')
-  const [longitude, setLongitude] = useState('77.2')
+  const [name, setName] = useState('Abhijit')
+  const [birthDate, setBirthDate] = useState('1990-01-15')
+  const [birthTime, setBirthTime] = useState('14:30')
+  const [birthPlace, setBirthPlace] = useState('Pune, India')
+  const [latitude, setLatitude] = useState('18.5204')
+  const [longitude, setLongitude] = useState('73.8567')
   const [timezone, setTimezone] = useState('5.5')
   const [ayanamsha, setAyanamsha] = useState('lahiri')
   const [error, setError] = useState('')

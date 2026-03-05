@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Full Pipeline (Server)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "jyotish_ai.main:app",
+        "--host", "0.0.0.0",
+        "--port", "8000"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "JYOTISH_ENVIRONMENT": "dev",
+        "PYTHONPATH": "${workspaceFolder}/src"
+      },
+      "jinja": true,
+      "justMyCode": true,
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debug Pipeline via Test",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": [
+        "tests/",
+        "-v",
+        "-x",
+        "--no-header"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "JYOTISH_ENVIRONMENT": "test",
+        "PYTHONPATH": "${workspaceFolder}/src"
+      },
+      "justMyCode": true,
+      "console": "integratedTerminal"
+    }
+  ]
+}
