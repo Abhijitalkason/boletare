@@ -34,6 +34,9 @@ ml = [
     "xgboost>=2.0.0",
     "shap>=0.45.0",
 ]
+training = [
+    "internetarchive>=4.0.0",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]

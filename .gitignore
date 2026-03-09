@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Testing
+.pytest_cache/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+# Generated training data (reproducible via pipeline scripts)
+data/training/raw/
+data/training/training_set.npz

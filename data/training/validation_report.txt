@@ -1,0 +1,44 @@
+============================================================
+VALIDATION REPORT
+============================================================
+Charts total:        50
+Charts valid:        50
+Charts need review:  32
+Total events:        36
+Errors:              0
+Warnings:            25
+
+--- WARNINGS ---
+  NH_001: longitude 65.0 outside India range (67.0, 98.0)
+  NH_008: latitude 46.5 outside India range (6.0, 37.0)
+  NH_008: longitude 30.0 outside India range (67.0, 98.0)
+  NH_010: latitude 53.5333 outside India range (6.0, 37.0)
+  NH_010: longitude -0.4 outside India range (67.0, 98.0)
+  NH_011: latitude 49.7333 outside India range (6.0, 37.0)
+  NH_011: longitude 6.6333 outside India range (67.0, 98.0)
+  NH_012: latitude 51.5 outside India range (6.0, 37.0)
+  NH_012: longitude -0.0833 outside India range (67.0, 98.0)
+  NH_017: latitude 51.3667 outside India range (6.0, 37.0)
+  NH_017: longitude -0.1 outside India range (67.0, 98.0)
+  NH_021: latitude 42.0833 outside India range (6.0, 37.0)
+  NH_021: longitude -83.0833 outside India range (67.0, 98.0)
+  NH_022: latitude 51.4 outside India range (6.0, 37.0)
+  NH_022: longitude 0.0167 outside India range (67.0, 98.0)
+  NH_026: latitude 41.8833 outside India range (6.0, 37.0)
+  NH_026: longitude 12.4667 outside India range (67.0, 98.0)
+  NH_028: latitude 40.7167 outside India range (6.0, 37.0)
+  NH_028: longitude -73.9833 outside India range (67.0, 98.0)
+  NH_031: latitude 41.0 outside India range (6.0, 37.0)
+  NH_031: longitude 16.0 outside India range (67.0, 98.0)
+  NH_037: latitude 48.0 outside India range (6.0, 37.0)
+  NH_037: longitude 13.0 outside India range (67.0, 98.0)
+  NH_038: property at age 15.6 outside expected range (18, 80)
+  NH_050: longitude -31.25 outside India range (67.0, 98.0)
+
+--- EVENT TYPE DISTRIBUTION ---
+  career: 8
+  child: 3
+  health: 17
+  marriage: 6
+  property: 2
+============================================================
