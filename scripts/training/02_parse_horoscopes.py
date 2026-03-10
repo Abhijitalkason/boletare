@@ -154,12 +154,110 @@ TIME_PATTERNS = [
     ),
 ]
 
-# Lat/Lon pattern: "Lat. 27° 25' N., Long. 77° 41' E." or "Lat 27°8' N., Long. 83° 5' E."
+# ─── Coordinate Extraction (robust against OCR artifacts) ─────────────────
+
+# Degree symbol variants: °, D, J, ~, 0 (zero adjacent to space), double-°
+_DEG = r"""[°DJ~]"""  # OCR produces D, J, ~ instead of °
+
+# Standard Lat/Lon: "Lat. 27° 25' N., Long. 77° 41' E."
+# Also handles: Lat,  Let.  Lang.  reversed order  curly quotes  missing symbols
 LATLON_PATTERN = re.compile(
-    r"Lat\.?\s*(\d+)\s*[°]?\s*(\d+)?[^A-Za-z]*([NS])[^A-Za-z]*"
-    r"Long\.?\s*(\d+)\s*[°]?\s*(\d+)?[^A-Za-z]*([EW])",
+    r"L[ae]t[.,]?\s*"                          # "Lat." "Lat," "Lat" "Let."
+    r"(\d[\d ]*)\s*" + _DEG + r"+\s*"          # degrees (may have spaces: "1 3°")
+    r"(?:(\d[\d ]*)\s*['\u2019\u201A]?\s*)?"   # optional minutes (curly quotes)
+    r"([NS])"                                   # direction
+    r"[^A-Za-z]*?"                              # separator (punctuation, spaces)
+    r"L[oa]ng[.,]?\s*"                          # "Long." "Long," "Lang."
+    r"(\d[\d ]*)\s*" + _DEG + r"+\s*"          # degrees
+    r"(?:(\d[\d ]*)\s*['\u2019\u201A]?\s*)?"   # optional minutes
+    r"([EWS])",                                 # direction (S=typo for E sometimes)
     re.IGNORECASE,
 )
+
+# Reversed order: "Long. 88° 25' E., Lat. 23° 23' N."
+LATLON_REVERSED_PATTERN = re.compile(
+    r"L[oa]ng[.,]?\s*"
+    r"(\d[\d ]*)\s*" + _DEG + r"+\s*"
+    r"(?:(\d[\d ]*)\s*['\u2019\u201A]?\s*)?"
+    r"([EW])"
+    r"[^A-Za-z]*?"
+    r"L[ae]t[.,]?\s*"
+    r"(\d[\d ]*)\s*" + _DEG + r"+\s*"
+    r"(?:(\d[\d ]*)\s*['\u2019\u201A]?\s*)?"
+    r"([NS])",
+    re.IGNORECASE,
+)
+
+# Time-based longitude: "5h. 10m. 20s. E." → h×15 + m×0.25 + s×(1/240)
+LATLON_TIME_PATTERN = re.compile(
+    r"L[ae]t[.,]?\s*"
+    r"(\d[\d ]*)\s*" + _DEG + r"+\s*"
+    r"(?:(\d[\d ]*)\s*['\u2019\u201A]?\s*)?"
+    r"([NS])"
+    r"[^A-Za-z]*?"
+    r"L[oa]ng[.,]?\s*"
+    r"(\d+)\s*h\.?\s*(\d+)\s*m\.?\s*(?:(\d+)\s*s\.?)?\s*"
+    r"([EW])?\s*",
+    re.IGNORECASE,
+)
+
+# OCR artifact pattern: "0°3CT" → "0°30'" (common OCR misread)
+_OCR_ARTIFACT = re.compile(r"(\d+)[°](\d+)CT", re.IGNORECASE)
+
+
+def _clean_coord_number(s: str) -> float:
+    """Strip internal spaces from OCR numbers: '1 3' → 13, '5 1' → 51."""
+    return float(s.replace(" ", ""))
+
+
+def _extract_latlon(text: str) -> tuple[float | None, float | None]:
+    """Extract latitude and longitude from text, handling all OCR variations.
+
+    Returns (latitude, longitude) or (None, None).
+    """
+    # Pre-clean OCR artifacts like "3CT" → "30"
+    cleaned = _OCR_ARTIFACT.sub(lambda m: f"{m.group(1)}°{m.group(2)}0'", text)
+
+    # Try time-based longitude first (more specific pattern)
+    match = LATLON_TIME_PATTERN.search(cleaned)
+    if match:
+        g = match.groups()
+        lat = _clean_coord_number(g[0]) + _clean_coord_number(g[1] or "0") / 60.0
+        if g[2].upper() == "S":
+            lat = -lat
+        # Convert hours/minutes/seconds to degrees
+        lon = int(g[3]) * 15.0 + int(g[4]) * 0.25
+        if g[5]:
+            lon += int(g[5]) / 240.0
+        if g[6] and g[6].upper() == "W":
+            lon = -lon
+        return lat, lon
+
+    # Try standard Lat...Long order
+    match = LATLON_PATTERN.search(cleaned)
+    if match:
+        g = match.groups()
+        lat = _clean_coord_number(g[0]) + _clean_coord_number(g[1] or "0") / 60.0
+        if g[2].upper() == "S":
+            lat = -lat
+        lon = _clean_coord_number(g[3]) + _clean_coord_number(g[4] or "0") / 60.0
+        if g[5].upper() == "W":
+            lon = -lon
+        return lat, lon
+
+    # Try reversed Long...Lat order
+    match = LATLON_REVERSED_PATTERN.search(cleaned)
+    if match:
+        g = match.groups()
+        lon = _clean_coord_number(g[0]) + _clean_coord_number(g[1] or "0") / 60.0
+        if g[2].upper() == "W":
+            lon = -lon
+        lat = _clean_coord_number(g[3]) + _clean_coord_number(g[4] or "0") / 60.0
+        if g[5].upper() == "S":
+            lat = -lat
+        return lat, lon
+
+    return None, None
 
 # Place patterns
 PLACE_PATTERNS = [
@@ -312,17 +410,8 @@ def extract_place(
     warnings: list[str] = []
 
     # Try explicit lat/lon first (very common in Notable Horoscopes)
-    explicit_lat: float | None = None
-    explicit_lon: float | None = None
-    latlon_match = LATLON_PATTERN.search(text)
-    if latlon_match:
-        g = latlon_match.groups()
-        explicit_lat = float(g[0]) + float(g[1] or 0) / 60.0
-        if g[2].upper() == "S":
-            explicit_lat = -explicit_lat
-        explicit_lon = float(g[3]) + float(g[4] or 0) / 60.0
-        if g[5].upper() == "W":
-            explicit_lon = -explicit_lon
+    explicit_lat, explicit_lon = _extract_latlon(text)
+    has_explicit_coords = explicit_lat is not None and explicit_lon is not None
 
     # Try place name patterns
     place_name = None
@@ -339,16 +428,16 @@ def extract_place(
         coords = city_lookup.get(place_name.lower())
         if coords:
             lat_val, lon_val = coords
-            if latlon_match:
+            if has_explicit_coords:
                 return place_name, explicit_lat, explicit_lon, 1, warnings
             return place_name, lat_val, lon_val, 1, warnings
         else:
-            if latlon_match:
+            if has_explicit_coords:
                 return place_name, explicit_lat, explicit_lon, 2, warnings
             warnings.append(f"Unknown place: {place_name}")
             return place_name, None, None, 2, warnings + ["needs_manual_review: missing coordinates"]
 
-    if latlon_match:
+    if has_explicit_coords:
         return "Unknown (coordinates only)", explicit_lat, explicit_lon, 2, warnings
 
     return None, None, None, 3, warnings + ["Could not extract birth place"]

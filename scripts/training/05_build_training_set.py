@@ -68,14 +68,12 @@ def main() -> int:
 
         X_list.append(fv)
 
-        # Apply label smoothing
-        if sample["label"] == 1:
-            # Check if the original event had approximate confidence
-            if sample.get("sample_type") == "positive":
-                # We don't have confidence directly here, use 0.85 as default
-                y_list.append(LABEL_POSITIVE_EXACT)
+        # Apply label smoothing based on confidence field from step 04
+        if sample["label"] == 1 and sample.get("sample_type") == "positive":
+            if sample.get("confidence") == "approximate":
+                y_list.append(LABEL_POSITIVE_APPROXIMATE)
             else:
-                y_list.append(LABEL_NEGATIVE)
+                y_list.append(LABEL_POSITIVE_EXACT)
         else:
             y_list.append(LABEL_NEGATIVE)
 

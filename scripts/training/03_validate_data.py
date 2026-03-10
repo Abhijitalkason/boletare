@@ -238,6 +238,25 @@ def main() -> int:
     REPORT_FILE.write_text(summary)
     print(f"\nReport saved to {REPORT_FILE}")
 
+    # Quality gate: fail on errors OR fallback coordinates
+    FALLBACK_LAT, FALLBACK_LON = 20.5937, 78.9629
+    fallback_count = sum(
+        1 for c in valid_charts
+        if abs(c.latitude - FALLBACK_LAT) < 0.001 and abs(c.longitude - FALLBACK_LON) < 0.001
+    )
+    if fallback_count > 0:
+        report.error(
+            f"Quality gate: {fallback_count} chart(s) have fallback coordinates "
+            f"({FALLBACK_LAT}, {FALLBACK_LON}) — coordinate parsing failed"
+        )
+
+    parse_rate = report.valid_count / report.chart_count if report.chart_count > 0 else 0
+    if parse_rate < 0.80:
+        report.error(
+            f"Quality gate: parse rate {parse_rate:.0%} below 80% threshold "
+            f"({report.valid_count}/{report.chart_count})"
+        )
+
     return 1 if report.errors else 0
 
 

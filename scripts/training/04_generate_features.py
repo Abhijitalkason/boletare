@@ -67,6 +67,7 @@ def generate_sample(
     event_date_str: str,
     label: int,
     sample_type: str,
+    confidence: str = "exact",
     is_retrospective: bool = True,
 ) -> dict | None:
     """Generate a single feature vector sample.
@@ -121,6 +122,7 @@ def generate_sample(
             "feature_vector": fv,
             "label": label,
             "sample_type": sample_type,
+            "confidence": confidence,
             "error": False,
         }
 
@@ -232,6 +234,7 @@ def main() -> int:
                 event_date_str=event["event_date"],
                 label=1,
                 sample_type="positive",
+                confidence=event.get("confidence", "exact"),
             )
             if pos:
                 samples.append(pos)

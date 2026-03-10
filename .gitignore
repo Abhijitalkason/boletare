@@ -18,6 +18,20 @@ build/
 # Environment variables
 .env
 
-# Generated training data (reproducible via pipeline scripts)
+# Generated training data (tracked by DVC — see .dvc files)
 data/training/raw/
+data/training/notable_horoscopes.json
+data/training/feature_vectors.json
 data/training/training_set.npz
+data/training/validation_set.npz
+data/training/test_set.npz
+data/training/training_metadata.json
+
+# DVC
+/data/**/*.dvc
+.dvc/tmp/
+.dvc/cache/
+
+# MLflow
+mlruns/
+mlartifacts/
