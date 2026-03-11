@@ -1,0 +1,5 @@
+outs:
+- md5: 3ce35e4660d7ea0b467a95132a6d5007
+  size: 7942
+  hash: md5
+  path: training_set.npz

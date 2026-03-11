@@ -1,0 +1,5 @@
+outs:
+- md5: 316568c35cd2e700a4861402f3bf3300
+  size: 731925
+  hash: md5
+  path: notable_horoscopes_ocr.txt

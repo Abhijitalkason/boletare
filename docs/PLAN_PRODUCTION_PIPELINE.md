@@ -211,19 +211,78 @@ prefect:
 
 ---
 
-## Files Summary
+## Implementation Status
 
-| Action | File | Phase |
-|--------|------|-------|
-| Modify | `scripts/training/02_parse_horoscopes.py` | 1A |
-| Modify | `scripts/training/04_generate_features.py` | 1B, 3B |
-| Modify | `scripts/training/05_build_training_set.py` | 1B, 3A, 5A |
-| Modify | `scripts/training/03_validate_data.py` | 1C |
-| Modify | `.gitignore` | 2B |
-| Modify | `pyproject.toml` | 2B, 3C, 4B |
-| Create | `scripts/training/pipeline_flow.py` | 4A |
-| Create | `configs/pipeline_config.yaml` | 5C |
+| Phase | Status | Description |
+|-------|--------|-------------|
+| **Phase 1** | **Done** | Data quality fixes — regex, label smoothing, quality gate |
+| **Phase 2** | **Done** | DVC initialized, 4 data files tracked |
+| **Phase 3** | **Done** | MLflow tracking added to steps 04 and 05 |
+| **Phase 4** | **Done** | Prefect flow created with 5 tasks |
+| **Phase 5** | **Deferred** | Production hardening — implement when dataset grows |
+
+## Files Changed — Complete List
+
+| Action | File | Phase | Status | What Changed |
+|--------|------|-------|--------|--------------|
+| Modify | `scripts/training/02_parse_horoscopes.py` | 1A | Done | Replaced single regex with 3 patterns (standard, reversed, time-based) + `_extract_latlon()`, `_clean_coord_number()`, `_OCR_ARTIFACT` helpers |
+| Modify | `scripts/training/04_generate_features.py` | 1B, 3B | Done | Added `confidence` parameter to `generate_sample()` (line 72) + MLflow metrics logging (lines 273-281) |
+| Modify | `scripts/training/05_build_training_set.py` | 1B, 3A | Done | Label smoothing uses `confidence` field: exact=0.85, approximate=0.65 (lines 72-78) + MLflow params/metrics/artifact logging (lines 116-132) |
+| Modify | `scripts/training/03_validate_data.py` | 1C | Done | Quality gate: blocks on fallback coordinates (20.5937, 78.9629) + parse rate < 80% (lines 241-260) |
+| Modify | `.gitignore` | 2B | Done | Added DVC cache + MLflow directory exclusions |
+| Modify | `pyproject.toml` | 2B, 3C, 4B | Done | Added `dvc>=3.50.0`, `mlflow>=2.15.0`, `prefect>=3.0.0` to training dependencies |
+| Create | `scripts/training/pipeline_flow.py` | 4A | Done | Prefect 3.x flow with 5 @task functions, return-value chaining, retries on download, quality gate enforcement |
+| Create | `data/training/raw/notable_horoscopes_ocr.txt.dvc` | 2A | Done | DVC tracking metadata for raw OCR file |
+| Create | `data/training/notable_horoscopes.json.dvc` | 2A | Done | DVC tracking metadata for parsed horoscopes |
+| Create | `data/training/feature_vectors.json.dvc` | 2A | Done | DVC tracking metadata for feature vectors |
+| Create | `data/training/training_set.npz.dvc` | 2A | Done | DVC tracking metadata for training set |
+| Create | `data/training/.gitignore` | 2A | Done | DVC auto-generated — excludes DVC-tracked data files from git |
+| Create | `data/training/raw/.gitignore` | 2A | Done | DVC auto-generated — excludes DVC-tracked raw files from git |
+| Create | `.dvc/config` | 2A | Done | DVC configuration |
+| Create | `.dvc/.gitignore` | 2A | Done | DVC internal gitignore |
+| Create | `.dvcignore` | 2A | Done | DVC ignore patterns |
+| Create | `configs/pipeline_config.yaml` | 5C | Deferred | Environment configuration — not needed for PoC |
 
 ## Execution Order
 
 Phase 1 → 2 → 3 → 4 → 5 (sequential, each builds on previous)
+
+---
+
+## Zen Post-Implementation Review (Review #2)
+
+After Phases 1–4 were implemented, Zen reviewed the actual code changes. Six issues were reported. Analysis and resolution below.
+
+### Issues Reviewed
+
+| # | Severity | Issue | Verdict | Resolution |
+|---|----------|-------|---------|------------|
+| 1 | HIGH | `pipeline_flow.py` — `importlib.import_module('01_download_ocr')` fails unless CWD is `scripts/training/` because that directory is not on `sys.path` | **Real bug** | Add `sys.path.insert(0, str(Path(__file__).resolve().parent))` to `pipeline_flow.py` so importlib can find the step scripts |
+| 2 | HIGH | `pipeline_flow.py` — importlib caches modules; re-running flow in same process won't re-execute | **False positive** | Each `python pipeline_flow.py` invocation is a fresh process. Module cache resets per process. Prefect Server also spawns fresh processes per flow run. No fix needed. |
+| 3 | HIGH | DVC auto-generated `.gitignore` files in `data/training/` and `data/training/raw/` are untracked — need to be committed to git | **Real — trivial** | Run `git add data/training/.gitignore data/training/raw/.gitignore`. These files tell git to ignore DVC-tracked data files. Without committing them, other developers' git won't exclude the data files. |
+| 4 | MED | MLflow creates separate runs in `04_generate_features.py` and `05_build_training_set.py` — metrics spread across runs | **Acceptable for PoC** | Each step logs different metrics (feature generation vs. training set build). Separate runs are appropriate. Can consolidate into a parent run later if needed. |
+| 5 | MED | `04_generate_features.py` logs MLflow metrics before writing the output file — if file write fails, MLflow shows success | **Acceptable** | If file write fails, the script returns non-zero exit code and Prefect catches it as a task failure. MLflow run metadata is still useful for debugging. Minor ordering preference, not a bug. |
+| 6 | MED | No `configs/pipeline_config.yaml` created — MLflow experiment name `"jyotish-training"` is hardcoded in two files | **Expected** | This is Phase 5C (deferred). Hardcoded experiment name is fine for PoC. Config file will be created when dataset grows and environment configuration becomes necessary. |
+
+### Fixes Applied
+
+**Fix A — sys.path for script imports in pipeline_flow.py:**
+```python
+# Before (only src/ was on path):
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
+
+# After (both src/ AND scripts/training/ on path):
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
+```
+
+**Fix B — Commit DVC .gitignore files:**
+```bash
+git add data/training/.gitignore data/training/raw/.gitignore
+```
+
+### Summary
+
+- **2 fixes applied** (sys.path bug + DVC gitignore commit)
+- **1 false positive dismissed** (importlib caching)
+- **3 medium issues accepted** (separate MLflow runs, logging order, deferred config)

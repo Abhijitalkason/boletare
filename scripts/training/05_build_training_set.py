@@ -20,6 +20,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+import mlflow
 import numpy as np
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "training"
@@ -111,6 +112,24 @@ def main() -> int:
         json.dump(metadata, f, indent=2)
 
     print(f"Saved metadata to {OUTPUT_META}")
+
+    # Log to MLflow
+    mlflow.set_experiment("jyotish-training")
+    with mlflow.start_run(run_name="05_build_training_set"):
+        mlflow.log_params({
+            "label_positive_exact": LABEL_POSITIVE_EXACT,
+            "label_positive_approximate": LABEL_POSITIVE_APPROXIMATE,
+            "label_negative": LABEL_NEGATIVE,
+            "feature_dimensions": 22,
+        })
+        mlflow.log_metrics({
+            "total_samples": metadata["total_samples"],
+            "positive_count": metadata["positive_count"],
+            "negative_count": metadata["negative_count"],
+        })
+        for et, count in event_type_counts.items():
+            mlflow.log_metric(f"event_{et}", count)
+        mlflow.log_artifact(str(OUTPUT_META))
 
     # Summary
     print(f"\n{'='*60}")

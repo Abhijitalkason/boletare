@@ -1,0 +1,5 @@
+outs:
+- md5: 12840b42726824dc37fdcb77a9cbb054
+  size: 47425
+  hash: md5
+  path: feature_vectors.json

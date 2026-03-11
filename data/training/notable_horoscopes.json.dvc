@@ -1,0 +1,5 @@
+outs:
+- md5: 4c7277bae4becf5135aa4ae815fe9734
+  size: 44657
+  hash: md5
+  path: notable_horoscopes.json

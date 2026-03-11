@@ -217,6 +217,8 @@ def _extract_latlon(text: str) -> tuple[float | None, float | None]:
     """
     # Pre-clean OCR artifacts like "3CT" → "30"
     cleaned = _OCR_ARTIFACT.sub(lambda m: f"{m.group(1)}°{m.group(2)}0'", text)
+    # Fix double-degree: "21 °37°" → "21°37'" (space-degree-digits-degree → degree-digits-minute)
+    cleaned = re.sub(r"(\d)\s*°(\d+)°", r"\1°\2'", cleaned)
 
     # Try time-based longitude first (more specific pattern)
     match = LATLON_TIME_PATTERN.search(cleaned)

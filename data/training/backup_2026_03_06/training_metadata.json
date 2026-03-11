@@ -1,14 +1,14 @@
 {
-  "total_samples": 108,
-  "positive_count": 36,
-  "negative_count": 72,
+  "total_samples": 81,
+  "positive_count": 27,
+  "negative_count": 54,
   "feature_dimensions": 22,
   "event_type_distribution": {
-    "health": 34,
-    "marriage": 23,
-    "career": 26,
-    "property": 16,
-    "child": 9
+    "health": 29,
+    "marriage": 18,
+    "child": 12,
+    "career": 15,
+    "property": 7
   },
   "label_smoothing": {
     "positive_exact": 0.85,
@@ -16,5 +16,5 @@
     "negative": 0.0
   },
   "source": "notable_horoscopes_bv_raman",
-  "generated_at": "2026-03-11T10:51:13.162502"
+  "generated_at": "2026-03-06T11:15:58.987008"
 }

@@ -19,6 +19,8 @@ from datetime import date, time, timedelta
 from pathlib import Path
 from random import choice, seed
 
+import mlflow
+
 # Add project src to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "src"))
 
@@ -267,6 +269,16 @@ def main() -> int:
     print(f"Errors:           {errors}")
     print(f"Charts skipped:   {skipped}")
     print(f"{'='*60}")
+
+    # Log metrics to MLflow
+    mlflow.set_experiment("jyotish-training")
+    with mlflow.start_run(run_name="04_generate_features"):
+        mlflow.log_metric("charts_processed", len(charts) - skipped)
+        mlflow.log_metric("charts_skipped", skipped)
+        mlflow.log_metric("error_count", errors)
+        mlflow.log_metric("features_generated", len(samples))
+        mlflow.log_metric("positive_samples", positive)
+        mlflow.log_metric("negative_samples", negative)
 
     # Write output
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
