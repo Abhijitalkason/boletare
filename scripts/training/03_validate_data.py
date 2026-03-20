@@ -22,7 +22,7 @@ REPORT_FILE = DATA_DIR / "validation_report.txt"
 # Domain constants
 INDIA_LAT_RANGE = (6.0, 37.0)
 INDIA_LON_RANGE = (67.0, 98.0)
-BIRTH_YEAR_RANGE = (500, 2000)  # Notable Horoscopes includes historical figures
+BIRTH_YEAR_RANGE = (500, 2028)  # Notable Horoscopes includes historical figures
 AGE_RANGES = {
     "marriage": (14, 60),
     "career": (16, 70),

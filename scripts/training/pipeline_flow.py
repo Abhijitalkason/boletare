@@ -1,7 +1,7 @@
 """
 Prefect pipeline flow for the training data pipeline.
 
-Wraps the 5 training steps as Prefect tasks with:
+Wraps the 7 training steps as Prefect tasks with:
 - Return-value chaining (Prefect 3.x)
 - Retries on download step
 - Quality gate enforcement in validation step
@@ -76,6 +76,26 @@ def build_training_set(features_path: Path) -> Path:
     return mod.OUTPUT_NPZ
 
 
+@task
+def train_model(training_set_path: Path) -> Path:
+    """Step 6: Train XGBoost model with 5-fold CV."""
+    mod = importlib.import_module("06_train_model")
+    result = mod.main()
+    if result != 0:
+        raise RuntimeError("06_train_model failed")
+    return mod.OUTPUT_MODEL
+
+
+@task
+def evaluate_model(model_path: Path) -> Path:
+    """Step 7: Evaluate model and generate reports."""
+    mod = importlib.import_module("07_evaluate_model")
+    result = mod.main()
+    if result != 0:
+        raise RuntimeError("07_evaluate_model failed")
+    return mod.OUTPUT_REPORT
+
+
 @flow(name="training-pipeline", log_prints=True)
 def training_pipeline():
     """End-to-end training data pipeline."""
@@ -83,7 +103,9 @@ def training_pipeline():
     parsed = parse_horoscopes(ocr)
     validated = validate_data(parsed)
     features = generate_features(validated)
-    build_training_set(features)
+    training_set = build_training_set(features)
+    model = train_model(training_set)
+    evaluate_model(model)
 
 
 if __name__ == "__main__":

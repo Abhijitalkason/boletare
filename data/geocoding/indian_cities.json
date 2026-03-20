@@ -1,4 +1,6 @@
+
 {
+  "TODO": "Please prepare the complete list of all cities",
   "cities": [
     {"name": "Bangalore", "aliases": ["Bengaluru", "Bangaluru"], "latitude": 12.9716, "longitude": 77.5946},
     {"name": "Mumbai", "aliases": ["Bombay"], "latitude": 19.0760, "longitude": 72.8777},

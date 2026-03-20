@@ -25,3 +25,6 @@ build/
 # MLflow
 mlruns/
 mlartifacts/
+
+# Model artifacts and plots
+models/

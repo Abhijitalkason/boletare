@@ -1,5 +1,5 @@
 """
-Master runner: chains all 5 training pipeline steps with progress logging.
+Master runner: chains all 7 training pipeline steps with progress logging.
 
 Stops on first error.
 
@@ -22,6 +22,8 @@ STEPS = [
     ("03_validate_data.py", "Validate extracted data quality"),
     ("04_generate_features.py", "Generate 22-dim feature vectors"),
     ("05_build_training_set.py", "Build XGBoost training set"),
+    ("06_train_model.py", "Train XGBoost model with 5-fold CV"),
+    ("07_evaluate_model.py", "Evaluate model and generate reports"),
 ]
 
 
