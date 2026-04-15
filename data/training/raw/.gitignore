@@ -1,1 +1,5 @@
-/notable_horoscopes_ocr.txt
+# OCR text files downloaded from Archive.org (large, not tracked in git)
+*_ocr.txt
+hpa_ocr_full.txt
+# Keep DVC tracking files
+!*.dvc

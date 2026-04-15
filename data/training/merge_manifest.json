@@ -1,0 +1,69 @@
+{
+  "merged_at": "2026-04-15T10:09:10.821542",
+  "total_charts": 592,
+  "total_events": 252,
+  "charts_with_events": 114,
+  "event_distribution": {
+    "health": 104,
+    "marriage": 35,
+    "child": 29,
+    "property": 56,
+    "career": 28
+  },
+  "sources": [
+    {
+      "file": "hindu_predictive_astrology.json",
+      "source": "hindu_predictive_astrology_bv_raman",
+      "charts": 14,
+      "charts_with_events": 0,
+      "total_events": 0,
+      "needs_review": 14,
+      "id_collisions": 0
+    },
+    {
+      "file": "judge_horoscope_santhanam.json",
+      "source": "judge_horoscope_santhanam",
+      "charts": 188,
+      "charts_with_events": 25,
+      "total_events": 48,
+      "needs_review": 185,
+      "id_collisions": 0
+    },
+    {
+      "file": "judge_horoscope_v1_raman.json",
+      "source": "judge_horoscope_v1_raman",
+      "charts": 91,
+      "charts_with_events": 5,
+      "total_events": 8,
+      "needs_review": 87,
+      "id_collisions": 0
+    },
+    {
+      "file": "judge_horoscope_v2_raman.json",
+      "source": "judge_horoscope_v2_raman",
+      "charts": 184,
+      "charts_with_events": 24,
+      "total_events": 47,
+      "needs_review": 184,
+      "id_collisions": 0
+    },
+    {
+      "file": "notable_horoscopes.json",
+      "source": "notable_horoscopes_bv_raman",
+      "charts": 50,
+      "charts_with_events": 25,
+      "total_events": 36,
+      "needs_review": 25,
+      "id_collisions": 0
+    },
+    {
+      "file": "sanjay_rath_crux.json",
+      "source": "sanjay_rath_crux_vedic_astrology",
+      "charts": 65,
+      "charts_with_events": 35,
+      "total_events": 113,
+      "needs_review": 44,
+      "id_collisions": 0
+    }
+  ]
+}

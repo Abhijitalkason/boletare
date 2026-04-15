@@ -1,0 +1,1719 @@
+{
+  "source": "sanjay_rath_crux_vedic_astrology",
+  "book_url": "https://archive.org/details/sanjayrathcruxofvedicastrologytimingofevents19982",
+  "charts": [
+    {
+      "id": "SRC_001",
+      "person_name": "",
+      "birth_date": "1955-05-23",
+      "birth_time": "01:30:00",
+      "birth_place": "Concepts",
+      "latitude": 30.35,
+      "longitude": 76.8667,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 7. Male Born on 22/23 May 1955, at 30N21,  76E52. Reported time between 1.30'AM to 2.00'AM.  (corected 1:54'AM 1ST)    VBN \\1:/   ul   7\\   LAG   X   7   KAHU   AK   \\   ( MOON  \\ SUN   X   8SUN",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_002",
+      "person_name": "Swami Vivekanand",
+      "birth_date": "1863-01-12",
+      "birth_time": "06:33:00",
+      "birth_place": "MOON \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLongevity Estimation",
+      "latitude": 22.6667,
+      "longitude": 88.5,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 8 : Swami Vivekanand, Born on 12th January  1863 at 6:33'AM (LMT), at 22 N 40', 88 E 30'.    \\ MERCHL  \\ VEN    RAHU /   \\|0/   LAG   SUN   /*v   /    MOON /   MARS     / KETU   \\/   \\    m   MA",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_003",
+      "person_name": "Jawahar Lai Nehru",
+      "birth_date": "1930-03-12",
+      "birth_time": "23:21:00",
+      "birth_place": "Unknown",
+      "latitude": 25.4667,
+      "longitude": 81.8667,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 2,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "child",
+          "event_date": "1930-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1930-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1944-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1956-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1956-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 11 : Jawahar Lai Nehru; Born on 14th Novem\u00ac  ber, 1889 at 11:21' PM 1ST; 25N28' 81 E 52'     Lag26\u00b02T Jup 15\u00b0 14'(MK) Sun 0\u00b017'(DK)   Ven 7\u00b023'(GK) Moon 18\u00b04'(AK) SanO\u00b059'(PK)   Mars 9\u00b059'(PUK) ",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_004",
+      "person_name": "Lata Mangeskar",
+      "birth_date": "1929-09-28",
+      "birth_time": "22:32:00",
+      "birth_place": "INDORE",
+      "latitude": 22.7196,
+      "longitude": 75.8577,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 13: Lata Mangeskar; bom on 28th Septem\u00ac  ber 1929 at 10: 32' PM 1ST at INDORE 22 N 43';  75E51'         CHART 13 LATA MOON  MANGESKAR  28.09 1929 10:32 PM 1  1ST INDORE      MARS SUN    W LAG   ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_005",
+      "person_name": "",
+      "birth_date": "1945-11-03",
+      "birth_time": "15:15:00",
+      "birth_place": "Unknown",
+      "latitude": 16.5333,
+      "longitude": 80.6,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 2,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 15. Male born on 3rd November 1945 At 3:15'  PM 1ST at 16N32', 80E36'.             70    The Crux of Vedic Astrology-Timing of Events    m     RAHU   i   CHART 15 MALE  i 11.1945 1' 15' 1ST I6N ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_006",
+      "person_name": "",
+      "birth_date": "1942-10-11",
+      "birth_time": "01:00:00",
+      "birth_place": "AL",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "medium",
+      "events": [],
+      "raw_text_excerpt": "Chart 17: Amitabh Bachchan.   Chart 17 is the horoscope of the most famous  name in Bollywood 1 Amitabh Bachchan'.    74    The Crux of Vedic Astrology-Timing of Events      SAT   AL   \u25a0   KETU   LAG ",
+      "needs_manual_review": true,
+      "parse_warnings": [
+        "Approximate time (hour only, no minutes)"
+      ]
+    },
+    {
+      "id": "SRC_007",
+      "person_name": "Andrew Carnegie bom on",
+      "birth_date": "1835-11-25",
+      "birth_time": "20:00:00",
+      "birth_place": "Dunformaline Scotland",
+      "latitude": 56.0833,
+      "longitude": -3.0,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1898-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1865-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1882-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1882-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 25: Andrew Carnegie bom on 25th November  1835 at 8:00 PM LMT at Dunformaline Scotland  56No53W25' _,     y\\   JUP   7   \\s/   LAG   V   RAHU   /   V   A   GL   \\   V MERC   \\ SAT   HL\\   SUN \\ ",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_008",
+      "person_name": "Nemchand Jain Alias Chandra Swami",
+      "birth_date": "1949-09-30",
+      "birth_time": "00:00:00",
+      "birth_place": "Alwar",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 27. Nemchand Jain Alias Chandra Swami born  on 29th /30th September 1949 at midnight at Alwar    (Rajsthan).    E3   AL    GL   1   CHART 28  CHANDRA SWAMI  15/16.12.1995  MIDNIGHT DELHI   \u00a7   J",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_009",
+      "person_name": "",
+      "birth_date": "1995-12-16",
+      "birth_time": "00:00:00",
+      "birth_place": "Midnight",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 28: Female born on 15/ 16th December 1995 at  Midnight (0:0' 1ST) at New Delhi    KETU   HL    GL   SAT       CHART 28 FEMALE 15/     16 121995 MIDNIGHT     DbLHI    \u25a0      I Mars   AL     VEN  ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_010",
+      "person_name": "",
+      "birth_date": "1980-09-14",
+      "birth_time": "13:35:00",
+      "birth_place": "Delhi \n\n\n\nAtmakarak",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 34. Male born on 8th of January 1977 at 1.35'  PM 1ST at Delhi     Atmakarak : Moon  Bhratrukarak : Rahu  Arudha Lagna : Leo (AL)   Balance of Vimsottari dasa of Mercury 2 years 6  months 9 days",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_011",
+      "person_name": "",
+      "birth_date": "1954-11-23",
+      "birth_time": "10:45:00",
+      "birth_place": "Unknown",
+      "latitude": 30.3833,
+      "longitude": 76.9,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 2,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "health",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 36 :  10.45' a.m-    . Male bom on 23rd November 1954 at  1ST at 30N23', 76E54'.    \u2014     KETU   A3   AL   CHART 36 MALE  23.11.1954   10.45\u2019 AM.   30 N 23\u2019   76 E 54\u2019   JUP   <R)   MARS   \u25a0   m",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_012",
+      "person_name": "",
+      "birth_date": "1966-01-20",
+      "birth_time": "19:40:00",
+      "birth_place": "Madras",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1982-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1988-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 37 : Female born on 20th January 1966 at  7.40' PM 1ST at Madras.    \u25a0   MOON   KETU   m   VEN   CHART 3\u2018  20.1  7.40 P   FEMALE   1996   M 1ST   i   SUN   MERC   MADRAS   JUP   UL     AL   \u25a0   ",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_013",
+      "person_name": "",
+      "birth_date": "1956-09-16",
+      "birth_time": "11:00:00",
+      "birth_place": "Delhi",
+      "latitude": 28.65,
+      "longitude": 77.2167,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 38 : Male born on 16th September 1956 at  11.00'AM 1ST at Delhi (28N39, 77E13)          134 The Crux of Vedic Astrology-Timing of Events   (AL) Arudha lagna : Aquarius   (A4) : Matru Pada : Taur",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_014",
+      "person_name": "",
+      "birth_date": "1966-01-12",
+      "birth_time": "06:20:00",
+      "birth_place": "Madras",
+      "latitude": 13.0667,
+      "longitude": 80.2667,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1991-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 40 : Male born on 12th January 1966 at  6.20' a.m. 1ST at Madras (13N04, 80E16)    UL    JUP   RAHU   \u25a0   SAT   CHART 40   MALE 12.01.1966  6.20' AM  MADRAS   A4   MARS   VEN   \u25a0   n   KETU   AL",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_015",
+      "person_name": "Female bom on",
+      "birth_date": "1973-10-03",
+      "birth_time": "09:05:00",
+      "birth_place": "Delhi",
+      "latitude": 28.65,
+      "longitude": 77.2167,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 42. Female bom on 3rd October 1973 at  9.05'A.M. 1ST at Delhi (28N39, 77E13).    \u25a0   MARS    SAT   KETU   \u25a0   CHART 42  FEMALE 3.10 1973  9.05' AM   DELHI   AL   JUP   \u25a0   RAHU   MOON   UL   vmm",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_016",
+      "person_name": "",
+      "birth_date": "1956-07-18",
+      "birth_time": "03:47:00",
+      "birth_place": "Calcutta",
+      "latitude": 22.5833,
+      "longitude": 88.3833,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1991-01-09",
+          "confidence": "exact"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1991-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 45. Male born on 18th July 1956 at 3.47' AM  bT at Calcutta (22N35, 88E23)     146 The Crux of Vedic Astrology-Timing of Events    AL    VEN   KETU   7 \u2014   'LAG   MERC   MARS   CHART 45   MALE 1",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_017",
+      "person_name": "",
+      "birth_date": "1948-07-16",
+      "birth_time": "10:10:00",
+      "birth_place": "Poona",
+      "latitude": 18.5667,
+      "longitude": 73.9667,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "career",
+          "event_date": "1969-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1963-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1964-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1973-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1983-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "marriage",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "marriage",
+          "event_date": "1983-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "marriage",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1991-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 46. Male born on 16th July 1948 at 10.10' AM  1ST at Poona (18N34, 73E58)      CHART 46  MALE 16.07 1948  10.10' PM  POONA     \\ MARS   SATA4   / \\ SUN   7    Vi/   Ven   KETU 7X    Merc   / JUP",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_018",
+      "person_name": "",
+      "birth_date": "1964-09-24",
+      "birth_time": "22:14:00",
+      "birth_place": "MARS \n\nRAHU MERC",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "marriage",
+          "event_date": "1985-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "marriage",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 52. Male born on 24.9.1964 at 10.14 p.m. 1ST at  82 E 8', 26 N 47'.       G RAHU  P    CHART 52 VEN   MALE 24.9.1964 A 5   22.14' 1ST  82 E 8, 26 N 47'     'X RAHU   7^   MOON /   UL \\ 3 /  MARS",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_019",
+      "person_name": "",
+      "birth_date": "1956-06-16",
+      "birth_time": "23:45:00",
+      "birth_place": "Calcutta",
+      "latitude": 22.5726,
+      "longitude": 88.3639,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 54. Male born on 16th June 1956 at 11.45  PM 1ST at Calcutta.    CHART 54  16.6.1956 (MALE  11 45' PM 1ST  22 N 35. 88 E 23\u2019    NAVAMSA    fllBSSB    SAPTAMSA    Arudha lagna AL : Capricorn ; Up",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_020",
+      "person_name": "Male bom on",
+      "birth_date": "1966-03-22",
+      "birth_time": "02:07:00",
+      "birth_place": "Jabalpur",
+      "latitude": 23.1667,
+      "longitude": 79.9833,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "marriage",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 55. Male bom on 22nd March 1966 at 2.07' AM  1ST at Jabalpur (23 N 10, 79 E 59).    SUN   MOON   MARS   MERO    JUP   RAHU   \u25a0   A 5   SAT   CHART 55   MALE 22 3 66   2.07 1ST  JABALPUR   UL   V",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_021",
+      "person_name": "Male bom on",
+      "birth_date": "1966-02-27",
+      "birth_time": "06:55:00",
+      "birth_place": "Kanjeshari",
+      "latitude": 29.4667,
+      "longitude": 77.7333,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "child",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 56. Male bom on 27th February 1966 at 6.55'AM  at Kanjeshari (29N28', 77E44').     JUP   MOON RAHU    CHART 56 MALE  27.2.1966   6 55 AM 1ST 29 N 28  77 E 44      \\ MERC  \\UL   77   vV   MOONSj ",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_022",
+      "person_name": "",
+      "birth_date": "1966-11-17",
+      "birth_time": "17:00:00",
+      "birth_place": "Unknown",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "medium",
+      "events": [
+        {
+          "event_type": "marriage",
+          "event_date": "1987-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1970-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1976-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1981-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1987-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "child",
+          "event_date": "1987-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 57 : Female born on 17th November 1966 at 5  PM at 77 E 13', 31 N6'    AS3   an   n   SAT   A 9   SAT   CHART 57  FEMALE 17 11 1966   5 PM 77 E 13'   31 N 6   JUP   MOON   MARS   AL   SUN A5  VE",
+      "needs_manual_review": true,
+      "parse_warnings": [
+        "Approximate time (hour only, no minutes)"
+      ]
+    },
+    {
+      "id": "SRC_023",
+      "person_name": "",
+      "birth_date": "1965-10-08",
+      "birth_time": "12:55:00",
+      "birth_place": "Delhi",
+      "latitude": 28.65,
+      "longitude": 77.2167,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 58. Male born on 8th October 1965 at 12.55' PM  1ST at Delhi 28 N 39, 77 E13       RAHU   A5   JUP   SAT   MOON   CHART 58 MALE  8.10.1965   12.55 PM 1ST  DELHI   1   \u25a0   UL   a   VEN   MARS   K",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_024",
+      "person_name": "Female bom on",
+      "birth_date": "1955-01-27",
+      "birth_time": "06:32:00",
+      "birth_place": "Unknown",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 59. Female bom on 27th January 1955 at  6.32 AM, Victoria 128 W 22, 48 N 25.    \\ SUN   7\\   VEN /   AS X. /   moon's!/   MERC /X.  AL / N   LAG   RAHU   \\s /  yO SAT   / MARS   \\ 9 /   y    KET",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_025",
+      "person_name": "",
+      "birth_date": "1882-01-30",
+      "birth_time": "20:09:00",
+      "birth_place": "Hyde  Park",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 61. President Franklin Delano Roosevelt  born on 30th Jan 1882 at 8.09'pm LMT at Hyde  Park 73W56' 41N47'    \u25a0   SAT   JUP   A6   KETU   MARS(R   MOON   ALA7   MERC   CHART 61   F.D. ROOSEVELT  ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_026",
+      "person_name": "",
+      "birth_date": "1951-05-27",
+      "birth_time": "00:00:00",
+      "birth_place": "Village Solavanda",
+      "latitude": 9.9667,
+      "longitude": 78.0,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "marriage",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 62. Male born on 27th May 1951 at  9.02'PM 1ST at Village Solavanda (Near  Madurai) India (9N58' 78EI')    SUN \\ /   MERC MARS VEN \\ / \\ /   A2 \\ \\ /   MOON\\lO/ \\* /   RAHU 1 X X 7       CHART 6",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_027",
+      "person_name": "Born on",
+      "birth_date": "1965-02-16",
+      "birth_time": "16:50:00",
+      "birth_place": "SUN \n\nCHART",
+      "latitude": 28.7833,
+      "longitude": 77.4833,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "health",
+          "event_date": "1973-10-01",
+          "confidence": "exact"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1996-05-21",
+          "confidence": "exact"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1965-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1976-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1985-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "marriage",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1973-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "child",
+          "event_date": "1966-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 64. Born on 16th February 1965; Place  Sambalpur; Time 4.50 PM 1ST; Lat : 21N27; Long :    83E58     JUP   RAHU    SAT   SUN   CHART 64   MALE   16.2.1965   4.50 PM  SAMBALPUR    MERC   VEN   MO",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_028",
+      "person_name": "",
+      "birth_date": "1963-08-07",
+      "birth_time": "21:15:00",
+      "birth_place": "MOON SUN",
+      "latitude": 21.4667,
+      "longitude": 84.0,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 67. Male Born on 7th August 1963; Place:  Sambalpur Time 9.15 p.m. Lat: 21N28' Long 84E01'  Ascendant 14\u00b023'   77 RAHU MOON 7   'LAG A6 \\ / \\ /   ILP _ \\ / nip \\i|/   --v/ SAT   MOON SUN / \\ / \\",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_029",
+      "person_name": "Male Bom on",
+      "birth_date": "1975-11-06",
+      "birth_time": "16:45:00",
+      "birth_place": "AL \n\nMERC",
+      "latitude": 17.3833,
+      "longitude": 78.4833,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "marriage",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 69. Male Bom on 6th November 1975; Place  Hyderabad Time 4.45' PM 1ST; Lat : 17 N 23'; Long  78 E 29'; Ascendant 4\u00b06'    V,   7\\   LAC.   IUP /   \\v    KETU    MARS / \\   ( SAT     AL   MERC   \\",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_030",
+      "person_name": "Male Bom on",
+      "birth_date": "1951-05-27",
+      "birth_time": "21:02:00",
+      "birth_place": "Unknown",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1951-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1998-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "marriage",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "marriage",
+          "event_date": "1984-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "child",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "child",
+          "event_date": "1984-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 72. Male Bom on 27th May 1951; Place :  Solavana (Madurai), Time 9.02' PM 1ST;    AL   JUP   MERC   SUN   MARS   VEN   A7   MOON   RAHU   CHART 72   MALE 27.5.1951   9 : 02\u2019 PM 1ST   NEAR MUDAR1",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_031",
+      "person_name": "Female Bom on",
+      "birth_date": "1964-07-27",
+      "birth_time": "13:30:00",
+      "birth_place": "Unknown",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 73. Female Bom on 27th July 1964; Place :  Bombay Time 13.30' PM 1ST; Lat: 18 N 58'; Long : 72  E 50';    \u25a0   JUP   (AK)    MARS   VEN   RAHU   AL   MOON   SAT  ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_032",
+      "person_name": "Female Bom on",
+      "birth_date": "1954-10-02",
+      "birth_time": "19:10:00",
+      "birth_place": "VEN \n\nSUN \n\n\nKETUV",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 74. Female Bom on 2nd October 1954; Place :  Palwal, India Time 19.10' PM 1ST; Lat: 28 N 9' Long  72 E 20' Ascendant 8\u00b0.36'    \u25a0   m    KETU   1   CHART 74  2.10.1954   19 10 1ST  PALWAL. INDIA ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_033",
+      "person_name": "Male Bom on",
+      "birth_date": "1958-12-13",
+      "birth_time": "10:00:00",
+      "birth_place": "MERC \n\nSUN",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 75. Male Bom on 13th December 1958; Place  Gurgaon; Time 10.00 AM 1ST Lat: 28 N 28' Long 77  E 2' Ascendant 9\u00b0.12'    KETU   A7   MARS     \u25a0   CHART 75   MALE   1    UL   VEN   SAT   MERC   SUN ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_034",
+      "person_name": "Male Shri A.B. Vajapayee",
+      "birth_date": "1926-12-25",
+      "birth_time": "05:02:00",
+      "birth_place": "Unknown",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 76. Male Shri A.B. Vajapayee, Born on  25.12.1926 Place : Gwalior Time 5.02' AM; Lat 26 N  13; Long 78 E 10       I    CHART 76  25.12,1926  5 <X AM 1ST  GWALIOR          \\ KETU SUN  \\ VEN /   M",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_035",
+      "person_name": "Male Sri Vijayendra Saraswati",
+      "birth_date": "1969-03-13",
+      "birth_time": "20:11:00",
+      "birth_place": "VEN \n\nUL",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1969-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1987-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1993-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 77. Male Sri Vijayendra Saraswati 13th  March 1969 Arani 8.11 PM Lat 13 N 4 Long 80  E 17.    RAHU   SAT   VEN   UL   \u25a0   SUN   MERC   CHART 77   SRI VISAYENDRA  SARASWATI  133.1969   8 11 P.M A",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_036",
+      "person_name": "",
+      "birth_date": "1951-10-25",
+      "birth_time": "10:34:00",
+      "birth_place": "Calcutta",
+      "latitude": 22.5333,
+      "longitude": 88.3667,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "career",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 78. Male born on 25th October 1951 at Calcutta  10.34' AM 22 N 32' 88 E 22'    AL   JUP      UL   RAHU   A7   CHART 78   25TH OCTOBER 1951   10 34'AM  CALCUTTA   1   1   MOON   KETU   MARS   VEN",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_037",
+      "person_name": "",
+      "birth_date": "1944-08-20",
+      "birth_time": "22:00:00",
+      "birth_place": "Unknown",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "medium",
+      "events": [
+        {
+          "event_type": "career",
+          "event_date": "1991-05-21",
+          "confidence": "exact"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1991-05-21",
+          "confidence": "exact"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1991-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1991-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1984-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 89 : Male; Rajiv Gandhi; Born on 20th August  1944 Place:Bombay, Time:7.11'.40\"AM Lat: 18 N 58';      AL   SAT    CHART 89   MALE   RAJIV OANDHI   20.8 1944   7.11.40 (CWT)  BOMBAY   RAHU   A8  ",
+      "needs_manual_review": true,
+      "parse_warnings": [
+        "Approximate time (hour only, no minutes)"
+      ]
+    },
+    {
+      "id": "SRC_038",
+      "person_name": "",
+      "birth_date": "1917-11-19",
+      "birth_time": "10:30:00",
+      "birth_place": "Unknown",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "health",
+          "event_date": "1984-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1985-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 90: Female: Indira Gandhi; Born on 19th No\u00ac  vember 1917; Time 23.03' 1ST; Lat : 25 N 28'; Long :  81 E 52'    HL   AL   /UP   KETU   I   CHART 70  FEMALE   INDIRA GANDHI   19 11.1917   a   MOON",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_039",
+      "person_name": "",
+      "birth_date": "1956-10-12",
+      "birth_time": "12:15:00",
+      "birth_place": "Madras",
+      "latitude": 13.0833,
+      "longitude": 80.2833,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "health",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 93: Male 12th October 1956 at Madras 12.15    p.m. 1ST 13 N 5, 80 E 17    \u25a0     \u25a0    CHART 93  12.10.1956   MAnRAS     12.15' PM 1ST   _   VEN A6  JUP AK   m      MARS   MERC   KETU       NAVAMS",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_040",
+      "person_name": "",
+      "birth_date": "1973-08-28",
+      "birth_time": "20:00:00",
+      "birth_place": "Delhi \n\n\n\nArudha Lagna",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "medium",
+      "events": [],
+      "raw_text_excerpt": "Chart 95 : Female : Born on 28th August 1973 at 8  p.m. 1ST at Delhi     Arudha Lagna (AL); Scorpio Hora lagna (HL); Libra  Mrityupada (A8) Leo                  361    The Eighth House   In Chart 95 t",
+      "needs_manual_review": true,
+      "parse_warnings": [
+        "Approximate time (hour only, no minutes)"
+      ]
+    },
+    {
+      "id": "SRC_041",
+      "person_name": "",
+      "birth_date": "1934-11-12",
+      "birth_time": "18:20:00",
+      "birth_place": "Cuttack",
+      "latitude": 20.4625,
+      "longitude": 85.883,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 96 : Male : 12th November 1934 at Cuttack  6.20 P.M. 1ST 20 N 30/85 E 50    CHART 96  12.11.1934  6.20 P M  CUTTACK    JUP VEN  MER  SUN    NAVAMSA  (D-9) CHART    ^ DASAMSA   D-10    MARS '  A8",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_042",
+      "person_name": "",
+      "birth_date": "1896-09-01",
+      "birth_time": "19:25:00",
+      "birth_place": "Calcutta",
+      "latitude": 22.5333,
+      "longitude": 88.3667,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "career",
+          "event_date": "1905-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1930-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "career",
+          "event_date": "1904-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1904-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1905-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1916-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "child",
+          "event_date": "1921-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "child",
+          "event_date": "1924-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1954-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 99 : Male : Srila Prabhupada 1 September 1896  at Calcutta 15.24' LMT 22 N 32' 88 E 22'    A8    MARS  MOON 28\u00b0  A9    UL   RAHU   CHART 99   SRILA PRABHUPADA  19.9.1896   15.24- CALCUTTA     SU",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_043",
+      "person_name": "",
+      "birth_date": "1853-12-22",
+      "birth_time": "19:15:00",
+      "birth_place": "Jairambati Village Baukuna Distt",
+      "latitude": 23.2333,
+      "longitude": 87.1167,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "marriage",
+          "event_date": "1857-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "marriage",
+          "event_date": "1858-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 100 : Female : Sarda MA Born on 22nd  December 1853 at Jairambati Village Baukuna Distt.  7.15' PM LMT 23 N 14 87 E 7.     The Ninth House    391    \u25a0   UL   SAT   RAHU   A8   A9    CHART 100  S",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_044",
+      "person_name": "",
+      "birth_date": "1836-02-18",
+      "birth_time": "01:06:00",
+      "birth_place": "AL",
+      "latitude": 21.8833,
+      "longitude": 87.7333,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 101. Male : Sri Ramakrishna Paramhans;  Born on 18th February 1836 6.44' LMT 21 N 53' 87  E 44'   In Chart 101, The luminaries conjoin in the  ascendant with the Mercury (5th Lord) generating a ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_045",
+      "person_name": "",
+      "birth_date": "1935-07-18",
+      "birth_time": "19:00:00",
+      "birth_place": "Irul Nekki Time",
+      "latitude": 10.7,
+      "longitude": 79.4333,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 102. Male : Sri Jayendra Saraswati; Born on  18th July 1935 at Irul Nekki Time 7.00 p.m. 1ST 10 N  42 79 E 26    AL     MERC   KETU   SAT   MOON   CHART 102  JAYENDRA  SARASWATI   18 7 1935 7 PM",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_046",
+      "person_name": "",
+      "birth_date": "1894-05-20",
+      "birth_time": "13:25:00",
+      "birth_place": "Unknown",
+      "latitude": 11.95,
+      "longitude": 79.5333,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 2,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1894-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1994-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 103. Male Kanchi Jagad Guru Sri Chandrasekar  Saraswati; Born on 20th May 1894 1.25' PM 11 N 57'  E 32'    Drig Dasa of Sri Jayendra Saraswati   Dasa   Period   From   To   Age   Virgo   3   Jul",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_047",
+      "person_name": "Autumn Jackson",
+      "birth_date": "1974-08-20",
+      "birth_time": "05:46:00",
+      "birth_place": "Los Angeles",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "child",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 106 : Autumn Jackson, born on 20th August  1974 at Los Angeles at 5.46' A.M.    \\ SUN MERC   7\"\\   SAT /   \\ MARS /   \\    N. /   VEN   \\ 3 /     KETU   MOONr   v/    \\ y    v /   AL y\\   A9   V",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_048",
+      "person_name": "",
+      "birth_date": "1991-08-29",
+      "birth_time": "13:30:00",
+      "birth_place": "Bombay",
+      "latitude": 18.9667,
+      "longitude": 72.8333,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "CHART 107:  FEMALE  27.07.1964   1.30 P.M.  BOMBAY   SUN   UL   \u25a0   MERC   KETU    a   \u25a0    In Chart 107, the Moon is in Aquarius and the  tenth house from it (Scorpio) is unoccupied. The tenth  lord ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_049",
+      "person_name": "Male T.N. Seshan bom on",
+      "birth_date": "1993-05-14",
+      "birth_time": "03:30:00",
+      "birth_place": "KETU",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1994-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 112 : Male T.N. Seshan bom on 14th May,  1933 place Palghat, Time : 3.30' am Lat 10 N 46' Long  76 E 42' Ascendant 16.26'        CHART 112  MALE   T.N SESHAN  14.5.1993   3.30'AM PALGHAT KETU   ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_050",
+      "person_name": "Dr. Murli Manohar Joshi",
+      "birth_date": "1934-01-05",
+      "birth_time": "10:17:00",
+      "birth_place": "DASAMSA",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "child",
+          "event_date": "1979-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "child",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1979-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "health",
+          "event_date": "1997-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 113 : Dr. Murli Manohar Joshi born on 5th  January, 1934 place Delhi, Time : 10.17' am 1ST Late  77 E 13' Long 28 N 40'     CHART 113  MURLI MANOHAR  JOSH!  5.1.1934;       JUP   SUN VEN  RAHU  ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_051",
+      "person_name": "Akbar the great bom on",
+      "birth_date": "1542-12-04",
+      "birth_time": "03:39:00",
+      "birth_place": "KETU \n\nSUN \n\nNAVAMSA",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 114 : Akbar the great bom on 4th December  1542* Umrankot, Sind Time 3.39' am LMT Lat 25 N    19' Long 69 E 47'    \u25a0   GL   AIO   A5   MOON   RAHU   CHART 114   MALE   AKBAR   4.12,1542*   3.39'",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_052",
+      "person_name": "Florence Nightingale",
+      "birth_date": "1820-05-12",
+      "birth_time": "14:00:00",
+      "birth_place": "MERC VEN \n\nRAHU MOON",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 115 : Florence Nightingale born on 12th May,  1820 place florence, Italy time 2.00' pm LMT lat 43  N 46' long 11 E 15'    8AT MERC VEN   RAHU MOON    A10   JUP CHART 115   FEMALE   - FLORENCE   ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_053",
+      "person_name": "Susmita Sen",
+      "birth_date": "1975-11-19",
+      "birth_time": "07:05:00",
+      "birth_place": "Unknown",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1995-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 117 : Susmita Sen born on 19th November  1975 place Hyderabad time 7.05' AM Lat : 17 N  20' Long : 28 E 30'                             The Tenth House    467     SAT   'LAG   MERC    RAHU   DAS",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_054",
+      "person_name": "Aishwarya Rai",
+      "birth_date": "1973-11-01",
+      "birth_time": "04:05:00",
+      "birth_place": "KETU",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 118 : Aishwarya Rai born on 1st November  1973 place Mangalore time 4.05' AM Lat: 12 N 54'  Long 74 E 51' Ascendant 10.5'     V/    A7 X/     ^ VEN   \\/ \\  9 X 3 SAT /   \\ MOON   /i 2 \\ KETU /  ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_055",
+      "person_name": "Alfred Nobel bom on",
+      "birth_date": "1833-10-21",
+      "birth_time": "06:54:00",
+      "birth_place": "Stockholm",
+      "latitude": 59.3333,
+      "longitude": 18.05,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 118 : Alfred Nobel bom on 21st October 1833  at Stockholm, Sweden 6.54' a.m. 59 N 20' 18 E 3'  Ascendant 5.23'    I      CHART 119 ALFRED  NOBEL  21.10.IS33  6.54' AM.  STOCKHOLM      MERC   RAH",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_056",
+      "person_name": "Male Pierre Curie",
+      "birth_date": "1859-05-15",
+      "birth_time": "02:10:00",
+      "birth_place": "KETU \n\nAL \n\n\nMOON",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 120 : Male Pierre Curie born on  15th May, 1859 Place Paris, France, Time : 2.10'  AM LMT Lat : 48 N 52 Long : 2 E 20' Ascendant  26.42'    VEN   MERC   SUN   MARS   JUP   '/   LAG   RAHU   AIO ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_057",
+      "person_name": "Marie Curie bom on",
+      "birth_date": "1867-11-07",
+      "birth_time": "20:09:00",
+      "birth_place": "VEN",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1898-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1911-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 121: Marie Curie bom on 7th November, 1867  place Warsaw, Poland Time : 8.09' PM LMT lat : 52  N 15 Long : 21 E 0      KETU   M0 \u00b0N CHART 121  JUP MARIE CURIE   7.11.1867 WARSAW  8.09 PM LMT    ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_058",
+      "person_name": "Ms. Kavita bom on",
+      "birth_date": "1960-08-05",
+      "birth_time": "21:00:00",
+      "birth_place": "Madras Lat",
+      "latitude": 13.0833,
+      "longitude": 80.2833,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 122 : Ms. Kavita bom on 5th August 1960 at 9  PM 1st at Madras Lat : 18 N 5' Long : 80 E 17\u2019   Chart 122 is the horoscope of the publisher and  owner of Starteller a monthly magazine on Astrolog",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_059",
+      "person_name": "",
+      "birth_date": "1961-12-16",
+      "birth_time": "21:49:00",
+      "birth_place": "RAHU \n\nNAVAMSA",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "career",
+          "event_date": "1996-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 123: Male born on 16th December 1961 place  Delhi time 9.49' pm Lat:28 N 39 Long 77 E 13'    MOON      1   CHART-123   MALE   1   KETU   JUP   SAT   16.12.1961   9.49' PM 1ST   77 E 13'28 N 39  ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_060",
+      "person_name": "",
+      "birth_date": "1957-09-06",
+      "birth_time": "17:01:00",
+      "birth_place": "RAHU \n\nAL \n\nJUP \n\nVEN",
+      "latitude": 26.45,
+      "longitude": 74.6333,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "career",
+          "event_date": "1984-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 126: Male born on 6th September 1957  place Ajmer, India Time 5.01' PM 1ST Lat : 26  N 27 Long 74 E 38     488 The Crux of Vedic Astrology-Timing of Events    UL   KETU     1   CHART 126   MALE ",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_061",
+      "person_name": "",
+      "birth_date": "1960-06-17",
+      "birth_time": "19:00:00",
+      "birth_place": "RAHU \n\nMOON \n\nMARS",
+      "latitude": 19.8167,
+      "longitude": 85.9,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "career",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        },
+        {
+          "event_type": "property",
+          "event_date": "1980-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 128 : Female born on 17th June 1960 7.00' PM  19 N 49' Long 85 E 54'         CHART 128  FEMALE  17.6.1960  7.00' PM  19 N 49'85 E 54'    ism   I      \\o/   iix   KETU/ \\   (A 10)^  JUP   SAT   \\",
+      "needs_manual_review": false,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_062",
+      "person_name": "Sanjay Dutt bom on",
+      "birth_date": "1959-07-29",
+      "birth_time": "14:45:00",
+      "birth_place": "MERC \n\nNAVAMSA",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [
+        {
+          "event_type": "property",
+          "event_date": "1998-06-15",
+          "confidence": "approximate"
+        }
+      ],
+      "raw_text_excerpt": "Chart 130 : Sanjay Dutt bom on 29th July 1959 place  Bombay Time : 2.45' PM Lat: 18 N 58 Long 72 E 50  Ascendant 9.12'    KETU    MOON   UL   A10   AL   CHART 130  SANJAY DUTT  29.07.1959   2.45 PM  B",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_063",
+      "person_name": "",
+      "birth_date": "1966-08-22",
+      "birth_time": "08:46:00",
+      "birth_place": "RAHU \n\nAL",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "female",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 132: Female born on 22nd August 1966 place  Bombay time 8.46' AM Lat : 18 N 58' long 72 E 50'    SAT   RAHU   AL   \u25a0   1   CHART 132  FEMALE  22.08.1966   8,-16'AM.  BOMBAY   VEN   MERC   JUP   ",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_064",
+      "person_name": "",
+      "birth_date": "1961-10-22",
+      "birth_time": "20:35:00",
+      "birth_place": "KAHU",
+      "latitude": 20.5937,
+      "longitude": 78.9629,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 3,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 133 : Male born on 22nd October 1961 place  Delhi, Time 8.35' PM Lat: 28 N 40' Long 77 E 13'    MOON    |g   \u25a0   KETU   CHART 133   MALE   22.10.1961   8 35' PM   DELHI   1   AL   JUP   SAT   KA",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    },
+    {
+      "id": "SRC_065",
+      "person_name": "Male bom on",
+      "birth_date": "1997-06-17",
+      "birth_time": "08:25:00",
+      "birth_place": "Mars",
+      "latitude": 31.5667,
+      "longitude": 74.3667,
+      "timezone_offset": 5.5,
+      "birth_time_tier": 1,
+      "gender": "male",
+      "birth_data_reliability": "high",
+      "events": [],
+      "raw_text_excerpt": "Chart 134 : Male bom on 17th June 1997 place     The Tenth House    511    Shimla (Near) Time 8.25' am Lat : 30 N 53' Long :  77 E 6'    AL   MARS   VEN   RAHU   MOON   MERC   SUN   9   CHART 134   MA",
+      "needs_manual_review": true,
+      "parse_warnings": []
+    }
+  ]
+}

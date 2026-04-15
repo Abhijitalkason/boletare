@@ -18,8 +18,12 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 
 STEPS = [
     ("01_download_ocr.py", "Download OCR text from Archive.org"),
-    ("02_parse_horoscopes.py", "Parse horoscopes into structured JSON"),
-    ("03_validate_data.py", "Validate extracted data quality"),
+    ("02_parse_horoscopes.py", "Parse Notable Horoscopes into structured JSON"),
+    ("02b_parse_technique_books.py", "Parse technique books (Santhanam + Raman v1/v2)"),
+    ("02c_parse_hpa.py", "Parse Hindu Predictive Astrology"),
+    ("02e_parse_sanjay_rath.py", "Parse Sanjay Rath — Crux of Vedic Astrology"),
+    ("03b_merge_datasets.py", "Merge all datasets with provenance"),
+    ("03_validate_data.py", "Validate merged data quality"),
     ("04_generate_features.py", "Generate 22-dim feature vectors"),
     ("05_build_training_set.py", "Build XGBoost training set"),
     ("06_train_model.py", "Train XGBoost model with 5-fold CV"),
