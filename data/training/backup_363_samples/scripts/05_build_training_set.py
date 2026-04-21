@@ -104,7 +104,7 @@ def main() -> int:
             "positive_approximate": LABEL_POSITIVE_APPROXIMATE,
             "negative": LABEL_NEGATIVE,
         },
-        "source": "notable_horoscopes_bv_raman",
+        "source": "multi_source_merged",
         "generated_at": datetime.now().isoformat(),
     }
 

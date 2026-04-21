@@ -16,7 +16,9 @@ from pathlib import Path
 from pydantic import BaseModel, Field, field_validator
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "training"
-INPUT_FILE = DATA_DIR / "notable_horoscopes.json"
+# Support CLI arg: python 03_validate_data.py [input_file]
+_default_input = "all_charts_merged.json" if (DATA_DIR / "all_charts_merged.json").exists() else "notable_horoscopes.json"
+INPUT_FILE = DATA_DIR / (sys.argv[1] if len(sys.argv) > 1 else _default_input)
 REPORT_FILE = DATA_DIR / "validation_report.txt"
 
 # Domain constants
@@ -238,17 +240,22 @@ def main() -> int:
     REPORT_FILE.write_text(summary)
     print(f"\nReport saved to {REPORT_FILE}")
 
-    # Quality gate: fail on errors OR fallback coordinates
+    # Quality gate: warn on fallback coordinates (fail only for single-source Notable Horoscopes)
     FALLBACK_LAT, FALLBACK_LON = 20.5937, 78.9629
     fallback_count = sum(
         1 for c in valid_charts
         if abs(c.latitude - FALLBACK_LAT) < 0.001 and abs(c.longitude - FALLBACK_LON) < 0.001
     )
     if fallback_count > 0:
-        report.error(
+        is_multi_source = data.get("source") == "multi_source_merged"
+        msg = (
             f"Quality gate: {fallback_count} chart(s) have fallback coordinates "
             f"({FALLBACK_LAT}, {FALLBACK_LON}) — coordinate parsing failed"
         )
+        if is_multi_source:
+            report.warn(msg + " (WARNING only for multi-source merge; charts filtered during feature generation)")
+        else:
+            report.error(msg)
 
     parse_rate = report.valid_count / report.chart_count if report.chart_count > 0 else 0
     if parse_rate < 0.80:

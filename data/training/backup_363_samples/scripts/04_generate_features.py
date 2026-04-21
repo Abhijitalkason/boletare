@@ -34,7 +34,9 @@ from jyotish_ai.prediction.quality_flags import compute_quality_flags
 from jyotish_ai.prediction.feature_builder import build_feature_vector
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "training"
-INPUT_FILE = DATA_DIR / "notable_horoscopes.json"
+# Support CLI arg: python 04_generate_features.py [input_file]
+_default_input = "all_charts_merged.json" if (DATA_DIR / "all_charts_merged.json").exists() else "notable_horoscopes.json"
+INPUT_FILE = DATA_DIR / (sys.argv[1] if len(sys.argv) > 1 else _default_input)
 OUTPUT_FILE = DATA_DIR / "feature_vectors.json"
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
